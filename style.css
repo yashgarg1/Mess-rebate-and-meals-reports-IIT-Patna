@@ -1,0 +1,120 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-size: 120%;
+  background: #f8f8ff;
+}
+
+.header {
+  width: 30%;
+  margin: 50px auto 0px;
+  color: white;
+  background: #17a2b8;
+  text-align: center;
+  border: 1px solid #b0c4de;
+  border-bottom: none;
+  border-radius: 10px 10px 0px 0px;
+  padding: 20px;
+}
+form,
+.content {
+  width: 50%;
+  margin: 0px auto;
+  padding: 20px;
+  border: 1px solid #b0c4de;
+  background: white;
+  border-radius: 0px 0px 10px 10px;
+}
+.item {
+  width: 50%;
+  margin: 0px auto;
+  padding: 20px;
+  border: 1px solid #b0c4de;
+  background: white;
+  border-radius: 0px 0px 10px 10px;
+}
+.input-group {
+  margin: 10px 0px 10px 0px;
+}
+.input-group label {
+  display: block;
+  text-align: left;
+  margin: 3px;
+}
+.input-group input {
+  height: 30px;
+  width: 93%;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+.btn {
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  background: #17a2b8;
+  border: none;
+  border-radius: 5px;
+}
+.u_btn {
+  font-size: large;
+}
+.error {
+  width: 92%;
+  margin: 0px auto;
+  padding: 10px;
+  border: 1px solid #a94442;
+  color: #a94442;
+  background: #f2dede;
+  border-radius: 5px;
+  text-align: left;
+}
+.success {
+  color: #3c763d;
+  background: #dff0d8;
+  border: 1px solid #3c763d;
+  margin-bottom: 20px;
+}
+.blueText {
+  color: black;
+  width: 98%;
+}
+#sex {
+  left: 100px;
+  font-size: 17px;
+}
+#category {
+  left: 100px;
+  font-size: 17px;
+}
+#purpose {
+  left: 100px;
+  font-size: 17px;
+}
+#payment {
+  left: 100px;
+  font-size: 17px;
+}
+#confirmation {
+  left: 100px;
+  font-size: 17px;
+}
+a:link,
+a:visited {
+  background-color: white;
+  color: black;
+  border: 2px solid #17a2b8;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover,
+a:active {
+  background-color: #17a2b8;
+  color: white;
+}
